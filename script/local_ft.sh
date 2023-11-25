@@ -1,0 +1,2 @@
+# fine tune our model on cora and other graph datasets
+nohup python -u train.py --mode "local_ft" --local_test_dataset "citeseer" --local_nclusters 6 --exp 1 > ./logs/log1_local_test_citeseer_exp1pretrain.log 2>&1 &
