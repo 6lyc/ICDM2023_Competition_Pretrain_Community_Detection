@@ -31,6 +31,12 @@
 ### Script
 · 在 ogbn-arxiv (in dataset folder) 上预训练，并在 icdm2023_session1_test (将icdm数据放在`./icdm2023_session1_test/`路径下)上测试，结果见result文件夹
 
+(1) 预训练数据预处理
+
+`python ./ogbn_preprocess.py`
+
+(2) 预训练以及测试
+
 `sh ./script/pretrain.sh`
 
 · 在 Cora / Citeseer (in data folder) 上进行本地测试 
