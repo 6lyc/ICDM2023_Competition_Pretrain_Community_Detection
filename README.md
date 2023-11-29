@@ -35,7 +35,13 @@
 
 `python ./ogbn_preprocess.py`
 
-(2) 预训练以及测试
+(2) 测试数据下载
+
+    cd ./icdm2023_session1_test
+    wget https://icdm2023dataset.oss-rg-china-mainland.aliyuncs.com/testdata/icdm2023_session1_test.zip
+    unzip icdm2023_session1_test.zip
+    
+(3) 预训练以及测试
 
 `sh ./script/pretrain.sh`
 
